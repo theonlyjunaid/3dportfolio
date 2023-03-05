@@ -197,17 +197,18 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Junaid does.",
-    name: "Mani Khan",
+
+      "I've never met a web developer who truly cares about their team's success like Junaid does.",
+    name: "Chaitanya Anand",
     designation: "CEO",
-    company: "Dawawala",
+    company: "Fresources",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     testimonial:
       "After Junaid optimized our website, our traffic increased by 40%. We can't thank him enough!",
-    name: "Chaitanya Anand",
-    designation: "CEO",
+    name: "Dhruv Bakshi",
+    designation: "CTO",
     company: "Fresources",
     image: "https://randomuser.me/api/portraits/men/10.jpg",
   },
