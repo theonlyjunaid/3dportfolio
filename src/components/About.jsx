@@ -41,7 +41,7 @@ OverView
     variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
    >
-I, Junaid Malik, am a Full Stack Web Developer. I have been developing websites for over 2 years. I have worked on
+I, am Junaid Malik a Full Stack Web Developer. I have been developing websites for over 1.5 years. I have worked on
 various projects and have gained a lot of experience in the field of web development.  
    </motion.p>
    <div className='mt-20 flex flex-wrap gap-10'>

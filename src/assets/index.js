@@ -6,7 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import fresource from "./fresource.webp";
+import news from "./news.webp";
+import notes from "./notes.webp";
+import tecveyron from "./techveyron.webp";
+import wrapify from "./wrapify.webp";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,13 +28,24 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import fresources from "./company/fresources.png";
+import werascals from "./company/werascals.png";
+
 import tesla from "./company/tesla.png";
+import graphql from "./tech/graphql.webp";
+import nextjs from "./tech/nextjs.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  fresource,
+  news,
+  notes,
+  tecveyron,
+  wrapify,
   logo,
   backend,
   creator,
@@ -59,4 +74,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  graphql,
+  nextjs,
+  fresources,
+  werascals,
 };
