@@ -38,6 +38,10 @@ import {
 
 export const navLinks = [
   {
+    id: "https://drive.google.com/file/d/1wfMcqehteKmGWPywoymZyIB_eGZDHTKc/view?usp=drive_link",
+    title: "Resume",
+  },
+  {
     id: "about",
     title: "About",
   },

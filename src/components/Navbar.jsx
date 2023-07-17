@@ -41,7 +41,7 @@ const Navbar = () => {
           }}
         >
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[22px] font-bold cursor-pointer flex '>
             Junaid Malik
 
           </p>
@@ -55,11 +55,12 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.title !=="Resume"&&<a href={`#${nav.id}`}>{nav.title}</a>}
+              {nav.title ==="Resume"&&<a href={`${nav.id}`} target="_blank" className="font-bold text-green-400 scale-150">{nav.title}</a>}
             </li>
           ))}
         </ul>
-
+     
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -83,7 +84,8 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+   {nav.title !=="Resume"&&<a href={`#${nav.id}`}>{nav.title}</a>}
+              {nav.title ==="Resume"&&<a href={`${nav.id}`} target="_blank" className="font-bold text-white">{nav.title}</a>}
                 </li>
               ))}
             </ul>
