@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -15,10 +14,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+     <a href={link} target={link!=="/"?"_blank":""}><Tilt
         options={{
           max: 45,
           scale: 1,
@@ -62,14 +62,14 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </Tilt></a> 
     </motion.div>
   );
 };
 
 const Works = () => {
   return (
-    <>
+    <div id="project">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -93,7 +93,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

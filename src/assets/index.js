@@ -34,13 +34,16 @@ import werascals from "./company/werascals.png";
 import tesla from "./company/tesla.png";
 import graphql from "./tech/graphql.webp";
 import nextjs from "./tech/nextjs.png";
-
+import mathsloyal from "./company/mathsloyal.webp"
+import wrapyshop from "./company/wrapyshop.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  wrapyshop,
+  mathsloyal,
   fresource,
   news,
   notes,

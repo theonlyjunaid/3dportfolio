@@ -32,6 +32,8 @@ import {
   nextjs,
   fresources,
   werascals,
+  mathsloyal,
+  wrapyshop
 } from "../assets";
 
 export const navLinks = [
@@ -43,10 +45,17 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+
+  {
+    id: "project",
+    title: "Projects",
+  },
   {
     id: "contact",
     title: "Contact",
   },
+  
+
 ];
 
 const services = [
@@ -130,7 +139,7 @@ const technologies = [
 const experiences = [
   {
     title: "Front end Developer",
-    company_name: "werascals",
+    company_name: "Werascals",
     icon: werascals,
     iconBg: "#383E56",
     date: "December 2021 - April 2022",
@@ -147,10 +156,35 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using Nextjs.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed various features in two versions of the site, including the home page, subject page, and our team page.",
+      "Optimized PDF load time, resulting in an enhanced user experience for over 10,000 registered users.",
+      "Improved site's SEO to achieve a Chrome Lighthouse score of 95+.",
+      "Worked in a team of 8 members, collaborating effectively to deliver high-quality results.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Mathsloyal",
+    icon: mathsloyal,
+    iconBg: "#E6DEDD",
+    date: "Feb 2023 - June 2023",
+    points: [
+      "Led a team of 4 members in designing and developing the website from scratch, emphasizing user-friendliness.",
+      "Leveraged GPT-3.5 prompt engineering to provide solutions for mathematics questions.",
+      "Worked on big chunk of backend such as payment integration, user creation, email confirmation etc.",
+      "Ensured seamless coordination and successful project completion.",
+    ],
+  },
+  {
+    title: "Founder",
+    company_name: "Wrapy.shop",
+    icon: wrapyshop,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
+    points: [
+      "Developed a fully functional e-commerce store for mobile skins with unique designs for over 700+ models.",
+      "Utilized Next.js framework to create a visually appealing and user-friendly website interface.",
+      "Continuously enhance the product and deliver a premium customer experience.",
     ],
   },
   // {
@@ -230,6 +264,7 @@ const projects = [
     ],
     image: wrapify,
     source_code_link: "https://github.com/theonlyjunaid/wrap",
+    link:"https://wrapify.vercel.app/"
   },
   {
     name: "TechVeyron",
@@ -251,6 +286,7 @@ const projects = [
     ],
     image: tecveyron,
     source_code_link: "https://github.com/theonlyjunaid/techveyron",
+    link:"https://techveyron.vercel.app/"
   },
   {
     name: "Newsee",
@@ -272,6 +308,7 @@ const projects = [
     ],
     image: news,
     source_code_link: "https://github.com/theonlyjunaid/newsee",
+    link:"/"
   },
 ];
 
