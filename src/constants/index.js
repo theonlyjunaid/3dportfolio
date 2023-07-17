@@ -145,7 +145,7 @@ const experiences = [
     company_name: "Fresources",
     icon: fresources,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - Present",
+    date: "Feb 2022 - May 2023",
     points: [
       "Developing and maintaining web applications using Nextjs.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
